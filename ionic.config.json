@@ -1,0 +1,7 @@
+{
+  "name": "NoFood.Ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

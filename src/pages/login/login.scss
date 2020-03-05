@@ -1,0 +1,40 @@
+page-login {
+  ion-content {
+    /* background-image: url("/src/assets/imagens/fundo.jpg"); */
+    background-image: url("https://cdn.consumidormoderno.com.br/wp-content/uploads/2019/05/alimento-saud%C3%A1vel_nova.jpg");
+    background-size: cover;
+  }
+
+  .scroll-content {
+    padding-top: 30%;
+    background: rgba(189, 8, 28, 0.5) !important;
+    height: 100% !important;
+  }
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo span {
+    color: wheat;
+    font-size: 1.6em;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+
+  .logo img {
+    width: 130px;
+    border-radius: 20%;
+    margin-top: 20%;
+  }
+
+  .item {
+    background: transparent !important;
+  }
+
+  .list .item-input:last-child {
+    border-bottom: none !important;
+  }
+}

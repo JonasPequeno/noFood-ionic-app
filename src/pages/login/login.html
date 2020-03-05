@@ -1,0 +1,38 @@
+<ion-content>
+
+  <div class="overlay">
+    <div class="logo">
+      <!--  <img src="/src/assets/imagens/logo.png" alt=""> -->
+      <img src="https://avatars3.githubusercontent.com/u/19806594?s=400&v=4" alt="">
+      <span color="light">No Food</span>
+    </div>
+
+    <ion-list no-lines>
+      <ion-item>
+        <ion-input type="text" placeholder="Email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="password" placeholder="Senha"></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <ion-grid>
+      <ion-row>
+        <button ion-button block round color="secondary" (click)="abrirCategoria()">Efetuar Login</button>
+      </ion-row>
+      <ion-row>
+        <button ion-button block round outline color="secondary" (click)="abrirCategoria()">Cadastra-se</button>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid>
+      <ion-row>
+        <button ion-button block clear color="light" (click)="abrirCategoria()">Administrar Cadastros</button>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+
+
+
+</ion-content>
